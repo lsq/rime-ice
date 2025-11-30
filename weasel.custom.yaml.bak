@@ -1,0 +1,37 @@
+patch:
+  preset_color_schemes:
+    purity_lsq:
+      name: "純粹的形式／Purity of Form Custom"
+      author: 雨過之後、佛振
+      color_format: rgba
+      text_color: 0x808080
+      back_color: 0xECEFF4
+      shadow_color: 0x000000b4 # 阴影
+      label_color: 0xBBBBBB
+      border_color: 0x545554
+      comment_text_color: 0x36CC1D
+      candidate_text_color: 0x7E4848
+      # candidate_shadow_color: 0x000000b4 # 阴影
+      hilited_comment_text_color: 0xFF9292
+      hilited_candidate_back_color: 0x5244A9
+      hilited_candidate_border_color: 0x5244A9 # 边框
+      hilited_candidate_label_color: 0xFFFFFF
+      hilited_candidate_text_color: 0xFFFFFF
+      hilited_candidate_shadow_color: 0x000000b4 # 阴影
+
+  style/color_scheme: purity_lsq
+  style/label_format: "%s."
+  style/click_to_capture: true
+  style/layout/border_width: 1
+  style/font_point: 13
+  style/label_font_point: 11
+  style/comment_font_point: 13
+  style/font_face: "consolaslxgw"
+  style/label_font_face: "consolaslxgw"
+  style/comment_font_face: "consolaslxgw"
+  style/layout/candidate_spacing: 5
+  style/layout/hilite_spacing: 2 # 候选项和相应标签的间距
+  style/layout/hilite_padding: 6 # 高亮区域和内部文字的间距，影响高亮区域大小
+  style/layout/margin_x: 4
+  style/layout/margin_y: 4
+  style/layout/shadow_radius: 4 # 阴影区域半径，为 0 不显示阴影；需要同时在配色方案中指定非透明的阴影颜色
